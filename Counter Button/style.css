@@ -1,0 +1,23 @@
+body {
+    font-size: 15pt;
+}
+.container{
+  margin: 0 auto;
+  background: hotpink;
+  padding: 10px;
+  text-align: center;}
+  
+  #counterH{
+    font-size: 60px;
+  }
+button{
+  margin: 6px;
+  font-size: 40px;
+  width:80px;
+  height: 80px;
+}
+button:disabled{
+  opacity: 0.8;
+  
+  cursor: not-allowed;
+}
